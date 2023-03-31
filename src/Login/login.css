@@ -6,12 +6,18 @@
 .container-login{
     height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
 
     background-color: blueviolet;
+}
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
 }
 
 input, button{
@@ -20,8 +26,18 @@ input, button{
     border: none;
     outline: none;
 }
-button{
-    margin-right: 10px;
-    width: 88px;
+.group-btn{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.group-btn button{
+    width: 100%;
+}
 
+.group-btn button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
 }
