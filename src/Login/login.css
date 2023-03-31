@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0;}
+.h1-login{
+    color: #fff 
+}
+
+.container-login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    background-color: blueviolet;
+}
+
+input, button{
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+button{
+    margin-right: 10px;
+    width: 88px;
+
+}
